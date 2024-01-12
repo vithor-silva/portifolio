@@ -1,0 +1,309 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+}
+
+#whatsapp {
+   background-color: #25D366;
+   color: #FFFFFF;
+}
+
+#github {
+    background-color: black;
+}
+
+#linkedin {
+    background-color: #0077B5;
+    color: #FFFFFF;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+#aboutme {
+    padding-top: 50px;
+    background-color:rgb(15, 177, 155);
+    width: 100vw;
+    height: 55vh;
+}
+
+#aboutme h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.4rem;
+    color: aliceblue;
+    padding-bottom: 10px;
+    padding: 10px;
+}
+
+#aboutme p {
+    color: rgb(214, 211, 211);
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+
+.buttons {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#irprojetos {
+    padding: 7px 40%;
+    border-style: none;
+    border-radius: 7px 7px;
+    font-size: 0.9rem;
+}
+
+#irtecnologias {
+    padding: 7px 37%;
+    border-style: none;
+    border-radius: 7px 7px;
+    background-color: transparent;
+    font-size: 0.9rem;
+    color: rgb(0, 0, 0);
+}
+
+#tecnologias {
+    padding: 20px;
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(233, 228, 228);
+}
+
+.img-container {
+    padding: 40px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.img-container img {
+    width: 80px;
+}
+
+#projetos {
+    border-radius: 7px; /* Mantenha o border-radius original */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+}
+
+#projetos h2 {
+    margin-bottom: 5px;
+    text-decoration: underline;
+    color: rgb(11, 184, 161);
+}
+
+.projetos-info > p {
+    color: rgb(94, 92, 92);
+    padding: 5px;
+    max-width: 80%;
+}
+
+.projetos-info > h4 {
+    font-size: 1rem;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+
+.projetos-info > a {
+    padding: 7px;
+    background-color: rgba(117, 221, 117, 0.486);
+    color: black;
+}
+
+.projetos-info img {
+    width: 40px;
+}
+
+.projetos-info h6 {
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 10vh;    
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact {
+    margin-bottom: 20px;
+}
+
+.contact h4 {
+    margin-bottom: 10px;
+}
+
+.contact a, .back-to-top a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
+
+.back-to-top {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+    color: #11B8A1; /* Cor verde correspondente ao logo da LinkedIn */
+}
+
+.contact {
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 15px;
+    border: 2px solid #11B8A1; /* Cor verde correspondente ao logo da LinkedIn */
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+ul li a:hover {
+    background-color: #11B8A1; /* Cor verde correspondente ao logo da LinkedIn */
+    color: #333;
+}
+
+p.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Adicione esse estilo para melhorar a aparência do botão "Ir para o Topo" */
+
+.back-to-top a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #11B8A1; /* Cor verde correspondente ao logo da LinkedIn */
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back-to-top a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: rgb(11, 184, 161);
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .menu-icon:hover + .menu,
+    .menu:hover {
+        display: flex;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    ul li a {
+        display: block;
+        width: 100%;
+    }
+
+    p.copyright {
+        margin-top: 15px;
+    }
+}
+
