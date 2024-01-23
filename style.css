@@ -18,8 +18,8 @@ body {
     align-items: center;
 }
 
-.logo {
-    font-size: 24px;
+.logo img {
+    width: 100px;
 }
 
 .menu {
@@ -56,9 +56,12 @@ body {
     display: none;
 }
 
+/*background-color:rgb(15, 177, 155);*/
+
+
 #aboutme {
     padding-top: 50px;
-    background-color:rgb(15, 177, 155);
+    background-color:rgba(46, 173, 29, 0.548);
     width: 100vw;
     height: 55vh;
 }
@@ -72,7 +75,7 @@ body {
 }
 
 #aboutme p {
-    color: rgb(214, 211, 211);
+    color: #f8efef;
     padding: 10px;
     font-size: 1.2rem;
 }
@@ -98,9 +101,14 @@ body {
     padding: 7px 37%;
     border-style: none;
     border-radius: 7px 7px;
-    background-color: transparent;
     font-size: 0.9rem;
-    color: rgb(0, 0, 0);
+}
+
+#baixarcv {
+    padding: 7px 40%;
+    border-style: none;
+    border-radius: 7px 7px;
+    font-size: 0.9rem;
 }
 
 #tecnologias {
@@ -112,7 +120,6 @@ body {
 
 #tecnologias h2 {
     text-align: center;
-    color: rgb(4, 194, 121);
     text-shadow: 1px 1px rgb(0, 0, 0);
 }
 
@@ -269,6 +276,80 @@ p.copyright {
     color: #fff;
 }
 
+@media screen and (min-width: 1024px) {
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar-a:hover {
+        color: #d6d2d2;
+        text-decoration: underline;    
+    }
+
+    #aboutme {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 50px;
+        height: 100vh;
+    }
+
+    #aboutme h2 {
+        font-size: 40px;
+    }
+
+    .buttons {
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    #irprojetos {
+        padding: 7px 10%;
+    }
+
+    #irtecnologias {
+        padding: 7px 10%;
+    }
+
+    #baixarcv {
+        padding: 7px 10%;
+    }
+
+    .buttons {
+        padding-left: 2%;
+    }
+
+    #tecnologias {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        background-color: rgb(210, 211, 210);
+    }
+
+    #tecnologias h2 {
+        font-size: 40px;
+    }
+
+    #tecnologias p {
+        font-size: 30px;
+        color: black;
+    }
+
+    .img-container {
+        overflow-x: hidden;
+    }
+
+    .img-container img {
+        width: 100px;
+    }
+
+}
+
 
 @media screen and (max-width: 768px) {
     .menu {
@@ -308,6 +389,10 @@ p.copyright {
     ul li a {
         display: block;
         width: 100%;
+    }
+
+    #projetos {
+        padding-top: 20%
     }
 
     p.copyright {
