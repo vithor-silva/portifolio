@@ -154,7 +154,7 @@ section .wrapper {
 
 .icon-container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 1.3rem;
   align-items: center;
   justify-content: center;
@@ -255,7 +255,8 @@ p.copyright {
 
 .contact_links {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
 }
 
