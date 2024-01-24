@@ -3,7 +3,36 @@
     display: none;
   }
 
+  #tecnologias {
+    min-height: 100vh;
+  }
+
+  .logo span {
+    font-size: 2.2rem;
+  }
+
+  #tecnologias h2 {
+    font-size: 35px;
+  }
+
+  #tecnologias p {
+    font-size: 25px;
+  }
+
+  .icon-container {
+    flex-direction: row;
+  }
+
+  .icon-container i {
+    font-size: 6rem;
+  }
+
+  .icon-container i:hover {
+    color: var(--green-linkedin);
+  }
+
   .menu {
+    z-index: 0;
     display: flex;
     flex-direction: row;
     box-shadow: 0px 2px 3px 2px rgba(0, 0, 0, 0.1);
@@ -15,25 +44,6 @@
 
   footer {
     padding: 15px;
-    flex-direction: row;
-  }
-
-  footer ul {
-    margin: 20px 0;
-  }
-
-  .contact_links {
-    text-align: center;
-  }
-
-  .contact_links li {
-    display: block;
-    margin: 10px 0;
-  }
-
-  .contact_links li a {
-    display: block;
-    width: 100%;
   }
 
   #projetos {
@@ -42,5 +52,25 @@
 
   p.copyright {
     margin-top: 15px;
+  }
+
+  #aboutme p {
+    font-size: 25px;
+  }
+
+  #aboutme h2 {
+    font-size: 40px;
+  }
+
+  #aboutme .wrapper {
+    flex-direction: row;
+  }
+
+  .buttons {
+    flex-direction: row;
+  }
+
+  .contact_links {
+    flex-direction: row;
   }
 }
