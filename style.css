@@ -109,36 +109,18 @@ section .wrapper {
   text-decoration: none;
 }
 
-.buttons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 50px;
-}
-
-.buttons a {
-  text-decoration: none;
-  padding: 7px 10px;
-  border: none;
-  border-radius: 7px;
-  background: #27d460;
-  color: white;
-  font-size: 1.2rem;
-  padding: 0.4rem 1rem;
-  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.2);
-}
-
 #tecnologias {
   font-size: 0.9rem;
   padding: 20px 0;
   width: 100vw;
+  /* background-color: #44576b; */
   background: rgb(233, 228, 228);
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+
 
 #tecnologias .wrapper {
   display: flex;
@@ -168,46 +150,75 @@ section .wrapper {
 }
 
 #projetos {
-  border-radius: 7px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  padding: 15px;
-  padding-top: 20px !important;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
+  margin: 2rem;
 }
 
-#projetos h2 {
-  margin-bottom: 5px;
-  text-decoration: underline;
-  color: rgb(11, 184, 161);
+.image-container img{
+  width: 400px;
+  height: 100%;
 }
 
-.projetos-info > p {
-  color: rgb(94, 92, 92);
-  padding: 5px;
-  max-width: 80%;
+.info-project {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  padding: 1rem;
+}
+.info-project p {
+  margin-top: 1rem;
 }
 
-.projetos-info > h4 {
-  font-size: 1rem;
-  padding: 5px;
-  margin-bottom: 5px;
+.description {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
-.projetos-info > a {
-  padding: 7px;
-  background-color: rgba(117, 221, 117, 0.486);
-  color: black;
+.description h2 {
+  color: var(--green-linkedin);
 }
 
-.projetos-info img {
-  width: 40px;
+.project-icon {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 2rem;
+  top: 1rem;
+  right: 1rem;
+  position: absolute;
 }
 
-.projetos-info h6 {
-  margin-top: 10px;
-  font-size: 20px;
+
+.projects-container {
+  background-color: #333;
+  display: flex;
+  gap: 1rem;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  color: white;
+  width: 70%;
+}
+
+.action a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: 2px solid transparent;
+  border-image: linear-gradient(to right, #ff8a00, #e52e71);
+  border-image-slice: 1;
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  transition: 0.2s ease;
+}
+
+.action a:hover {
+  scale: 1.05;
+  border: 2px solid transparent;
+  border-image: linear-gradient(to right, #e52e71, #ff8a00);
+  border-image-slice: 1;
 }
 
 footer {

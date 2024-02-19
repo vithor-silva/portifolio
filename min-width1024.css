@@ -2,4 +2,13 @@
   .icon-container i {
     font-size: 7rem;
   }
+
+  #projetos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+
 }
