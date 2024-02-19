@@ -1,0 +1,48 @@
+@media screen and (max-width: 767px) {
+    #projetos h2 {
+        padding: 20px;
+      }
+      
+      .image-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .image-container img {
+        margin: 20px;
+        width: 90%;
+      }
+
+      .projects-container {
+        background-color: #333;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+        color: white;
+      }
+    
+      .description {
+        padding: 10px;
+      }
+
+      .description p {
+        padding-left: 10px;
+      }
+
+      .description h2 {
+        color: var(--green-linkedin);
+      }
+
+      .action {
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+
+      .project-icon {
+        margin-left: 20px;
+      }
+
+      .project-icon i {
+        font-size: 24px;
+      }
+
+}
