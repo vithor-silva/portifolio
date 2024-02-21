@@ -113,14 +113,10 @@ section .wrapper {
   font-size: 0.9rem;
   padding: 20px 0;
   width: 100vw;
-  /* background-color: #44576b; */
-  background: rgb(233, 228, 228);
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-
 
 #tecnologias .wrapper {
   display: flex;
@@ -132,6 +128,7 @@ section .wrapper {
 
 #tecnologias h2 {
   text-shadow: 1px 1px rgb(0, 0, 0, 0.3);
+  color: var(--green-linkedin);
 }
 
 .icon-container {
@@ -160,6 +157,48 @@ section .wrapper {
   color: #fff;
   background-color: #333;
   transition: 0.2s ease;
+}
+
+/*Cor dos icones*/
+
+#i-html5 {
+  color: rgb(255, 0, 0);
+}
+
+#i-css3 {
+  color: blue;
+}
+
+#i-javascript {
+  color: rgb(207, 207, 17);
+}
+
+#i-sass {
+  color: rgb(247, 134, 153);
+}
+
+#i-git {
+  color: #89c43f;
+}
+
+#i-windows {
+  color: rgba(0, 0, 255, 0.644);
+}
+
+#i-figma {
+  color: #c709ce;
+}
+
+#i-html5:hover,
+#i-css3:hover,
+#i-javascript:hover,
+#i-sass:hover,
+#i-git:hover,
+#i-windows:hover,
+#i-figma:hover,
+#i-github:hover {
+  transform: scale(1.1); /* Exemplo: aumentar em 20% ao passar o mouse */
+  color: var(--green-linkedin);
 }
 
 
@@ -268,6 +307,12 @@ p.copyright {
 #aboutme p {
   color: aliceblue;
   font-size: 1.2rem;
+}
+
+#projetos-text-top {
+  color: var(--green-linkedin);
+  text-shadow: 1px 1px rgb(0, 0, 0, 0.3);
+  font-size: 2rem;
 }
 
 .back-to-top {

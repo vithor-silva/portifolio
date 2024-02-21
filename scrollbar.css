@@ -1,0 +1,22 @@
+/* Estilos para a barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #0e8c80; 
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f0f0f0; 
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background-color: #f0f0f0;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #11b8a1;
+  }
