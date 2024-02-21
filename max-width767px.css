@@ -45,4 +45,12 @@
         font-size: 24px;
       }
 
+      p {
+        font-size: 24px;
+      }
+
+      #tecnologias h2 {
+        font-size: 2rem;
+      }
+
 }
