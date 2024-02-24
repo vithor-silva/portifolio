@@ -10,5 +10,9 @@
     margin-top: 200px;
     margin-bottom: 200px;
   }
+  
+.img img {
+    width: 300px;
+  }
 
 }
